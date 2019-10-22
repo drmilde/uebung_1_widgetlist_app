@@ -47,8 +47,8 @@ class _WidgetListeStudierendeScreenState
                   // Viel Erfolg und viel Glück!
                   //
                   zeileMitWidgetUndStudierendem(
+                    "Macht den Rest!",
                     "Jan-Torsten",
-                    "Macht den Rest :)",
                   ),
                 ],
               ),
