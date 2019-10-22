@@ -4,7 +4,7 @@ Projekt zur Übung1:  Vorstellen der Widgets
 
 ## Übung1: Liste der Widgets
 
-Aufgabe 1) Eintrag erstellen     (Aufgabe 2 steht weiter unten!!!!)
+### Aufgabe 1) Eintrag erstellen     (Aufgabe 2 steht weiter unten!!!!)
 
 Hier die Liste der Widgets, aus denen Ihr eines vorstellen sollt.
 Bitte wählt eins aus und tragt dann die Zeile an der richtigen Stelle
@@ -52,7 +52,7 @@ Hier könnt Ihr schauen: (fast alle Widgets sind drin)
     Flutter Channel: Widget of the Week
     https://www.youtube.com/channel/UCwXdFgeE9KYzlDdR7TG9cMw
 
-Aufgabe 2) Folien
+### Aufgabe 2) Folien
 
 Macht 3 kurze Folien, die die wichtigsten Eigenschaften Eures
 Widget erklären.
