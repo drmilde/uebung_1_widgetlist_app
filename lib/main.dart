@@ -40,6 +40,7 @@ class _WidgetListeStudierendeScreenState
               Column(
                 children: <Widget>[
                   zeileMitWidgetUndStudierendem("Widgetname", "Studierender"),
+                  zeileMitWidgetUndStudierendem("RichText", "Maximilian Riedl"),
                   //
                   // TODO Hier Eure jeweilige Zeile einfügen !!!!!!
                   // Danach dann testen, ob es läuft und
