@@ -9,8 +9,9 @@ Projekt zur Übung1:  Vorstellen der Widgets
 Hier die Liste der Widgets, aus denen Ihr eines vorstellen sollt.
 Bitte wählt eins aus und tragt dann die Zeile an der richtigen Stelle
 in main.dart ein.
-Ich habe ein TODO eingefügt. Ihr könnt unten im Fenster auf den TODO
-Reiter tippen, dann wird Euch das angezeigt. Klappt den
+
+Ich habe ein TODO eingefügt. Ihr könnt unten im Fenster (also im AndroidStudio)
+auf den TODO Reiter tippen, dann wird Euch das angezeigt. Klappt den
 Eintrag unter main.dart auf und klick auf das TODO.
 Schwups, Ihr seid an der richtigen Stelle im Code :)
 
