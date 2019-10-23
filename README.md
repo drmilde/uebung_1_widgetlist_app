@@ -19,7 +19,7 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - Container
 - Row
 - Column
-- Text
+- ~~Text~~ (Felix)
 - TextStyle
 - ~~Image~~ (Andreas)
 - Padding

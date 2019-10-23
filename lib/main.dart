@@ -46,6 +46,7 @@ class _WidgetListeStudierendeScreenState
                   zeileMitWidgetUndStudierendem("Opacity", "Serageldin El-Khodary"),
                   zeileMitWidgetUndStudierendem("ClipRRect", "Lukas Scheurer"),
                   zeileMitWidgetUndStudierendem("ListView", "Oliver Mentel"),
+                  zeileMitWidgetUndStudierendem("Text", "Felix Maurer"),
                   //
                   // TODO Hier Eure jeweilige Zeile einfügen !!!!!!
                   // Danach dann testen, ob es läuft und
