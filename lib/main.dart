@@ -48,6 +48,7 @@ class _WidgetListeStudierendeScreenState
                   // dann commit und push
                   // Viel Erfolg und viel Glück!
                   //
+                  _spacer(),
                   zeileMitWidgetUndStudierendem(
                     "Super ... weiter so!",
                     "Jan-Torsten",
