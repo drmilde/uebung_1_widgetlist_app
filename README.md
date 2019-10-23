@@ -20,7 +20,7 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - Row
 - Column
 - ~~Text~~ (Felix)
-- TextStyle
+- ~~TextStyle~~ (Eva-Maria)
 - ~~Image~~ (Andreas)
 - Padding
 - SafeArea
