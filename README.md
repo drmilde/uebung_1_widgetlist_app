@@ -21,7 +21,7 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - Column
 - Text
 - TextStyle
-- Image
+- ~~Image~~ (Andreas)
 - Padding
 - SafeArea
 - AppBar
