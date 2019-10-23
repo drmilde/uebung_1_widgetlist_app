@@ -41,6 +41,7 @@ class _WidgetListeStudierendeScreenState
                 children: <Widget>[
                   zeileMitWidgetUndStudierendem("Widgetname", "Studierender"),
                   zeileMitWidgetUndStudierendem("Image", "Andreas Enns"),
+                  zeileMitWidgetUndStudierendem("Spacer", "Dan Vi Nguyen"),
                   zeileMitWidgetUndStudierendem("RichText", "Maximilian Riedl"),
                   //
                   // TODO Hier Eure jeweilige Zeile einfügen !!!!!!
