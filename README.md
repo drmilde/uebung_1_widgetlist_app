@@ -26,7 +26,7 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - SafeArea
 - AppBar
 - Wrap
-- Spacer
+- ~~Spacer~~ (Dan Vi)
 - SizedBox
 - Stack
 - Opacity
