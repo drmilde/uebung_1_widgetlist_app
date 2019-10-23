@@ -42,6 +42,7 @@ class _WidgetListeStudierendeScreenState
                   zeileMitWidgetUndStudierendem("Widgetname", "Studierender"),
                   zeileMitWidgetUndStudierendem("Image", "Andreas Enns"),
                   zeileMitWidgetUndStudierendem("Spacer", "Dan Vi Nguyen"),
+                  zeileMitWidgetUndStudierendem("Align", "Sybille Pradella"),
                   //
                   // TODO Hier Eure jeweilige Zeile einfügen !!!!!!
                   // Danach dann testen, ob es läuft und
