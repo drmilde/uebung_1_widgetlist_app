@@ -29,13 +29,13 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - ~~Spacer~~ (Dan Vi)
 - SizedBox
 - Stack
-- Opacity
+- ~~Opacity~~ (Serageldin)
 - Floating Action Button (FAB)
 - Table
-- ClipRRect
-- Align
+- ~~ClipRRect~~ (Lukas)
+- ~~Align~~ (Sybille)
 - Positioned
-- ListView
+- ~~ListView~~ (Oliver)
 - ListTile
 - Flexible
 - Expanded
