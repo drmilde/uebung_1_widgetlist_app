@@ -65,7 +65,7 @@ class _WidgetListeStudierendeScreenState
                     "Jan-Torsten",
                   ),
                   zeileMitWidgetUndStudierendem(
-                    "Macht den Rest!",
+                    "Ich mache den Rest :)",
                     "Jan-Torsten",
                   ),
                 ],
