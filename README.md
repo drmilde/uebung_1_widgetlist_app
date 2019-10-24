@@ -30,7 +30,7 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - SizedBox
 - Stack
 - ~~Opacity~~ (Serageldin)
-- Floating Action Button (FAB)
+- Floating Action Button: FAB
 - Table
 - ~~ClipRRect~~ (Lukas)
 - ~~Align~~ (Sybille)
