@@ -39,11 +39,16 @@ class _WidgetListeStudierendeScreenState
               _spacer(),
               Column(
                 children: <Widget>[
-                  zeileMitWidgetUndStudierendem("Widgetname", "Studierender"),
+                  zeileMitWidgetUndStudierendem(
+                    "Widgetname",
+                    "Studierender",
+                    weight: FontWeight.bold,
+                  ),
                   zeileMitWidgetUndStudierendem("Image", "Andreas Enns"),
                   zeileMitWidgetUndStudierendem("Spacer", "Dan Vi Nguyen"),
                   zeileMitWidgetUndStudierendem("Align", "Sybille Pradella"),
-                  zeileMitWidgetUndStudierendem("Opacity", "Serageldin El-Khodary"),
+                  zeileMitWidgetUndStudierendem(
+                      "Opacity", "Serageldin El-Khodary"),
                   zeileMitWidgetUndStudierendem("ClipRRect", "Lukas Scheurer"),
                   zeileMitWidgetUndStudierendem("ListView", "Oliver Mentel"),
                   zeileMitWidgetUndStudierendem("Text", "Felix Maurer"),
@@ -105,7 +110,8 @@ class _WidgetListeStudierendeScreenState
   /**
    * mit dieser Methode wird die einzelene Zeile erzeugt
    */
-  Widget zeileMitWidgetUndStudierendem(widgetName, studierender) {
+  Widget zeileMitWidgetUndStudierendem(widgetName, studierender,
+      {FontWeight weight = FontWeight.normal}) {
     return Padding(
       padding: const EdgeInsets.all(4.0),
       child: Row(
@@ -113,11 +119,17 @@ class _WidgetListeStudierendeScreenState
         children: <Widget>[
           Text(
             widgetName,
-            style: TextStyle(fontSize: 20),
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: weight,
+            ),
           ),
           Text(
             studierender,
-            style: TextStyle(fontSize: 20),
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: weight,
+            ),
           ),
         ],
       ),
