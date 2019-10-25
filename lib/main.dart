@@ -32,7 +32,7 @@ class _WidgetListeStudierendeScreenState
       ),
       body: SingleChildScrollView(
         child: Container(
-          color: Colors.black26,
+          color: Colors.amber,
           child: Column(
             children: <Widget>[
               _titelContainer(),
