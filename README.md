@@ -24,10 +24,10 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - ~~Image~~ (Andreas)
 - Padding
 - ~~SafeArea~~ (Kathleen)
-- ~~AppBar~~ (Jana)
+- AppBar
 - Wrap
 - ~~Spacer~~ (Dan Vi)
-- SizedBox
+- ~~SizedBox~~ (Jana)
 - Stack
 - ~~Opacity~~ (Serageldin)
 - ~~Floating Action Button: FABt~~ (Kilian)
