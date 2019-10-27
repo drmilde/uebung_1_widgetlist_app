@@ -23,8 +23,8 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - ~~TextStyle~~ (Eva-Maria)
 - ~~Image~~ (Andreas)
 - Padding
-- SafeArea (Kathleen)
-- AppBar (Jana)
+- ~~SafeArea~~ (Kathleen)
+- ~~AppBar~~ (Jana)
 - Wrap
 - ~~Spacer~~ (Dan Vi)
 - SizedBox
