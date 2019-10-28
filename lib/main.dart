@@ -84,17 +84,6 @@ class _WidgetListeStudierendeScreenState
     );
   }
 
-  Widget getListView() {
-
-    var listView = ListView(
-      children: <Widget>[
-        ListTile(
-          title: Text("TEST"),
-        )
-      ],
-    );
-  }
-
   // *****************************************
   // *****************************************1
   // Den folgenden Code könnt gerne ihr lesen, aber Ihr solltet ihn lieber
@@ -132,7 +121,7 @@ class _WidgetListeStudierendeScreenState
     return Padding(
       padding: const EdgeInsets.all(4.0),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           Text(
             widgetName,
@@ -141,8 +130,6 @@ class _WidgetListeStudierendeScreenState
               fontWeight: weight,
             ),
           ),
-
-          Text(abstand(widgetName)),
           Text(
             studierender,
             style: TextStyle(
@@ -154,12 +141,4 @@ class _WidgetListeStudierendeScreenState
       ),
     );
   }
-}
-
-String abstand(widgetName) {
-  String leer = "";
-  for(int i = 0; i < 10; i++) {
-    leer = leer + " ";
-  }
-  return leer;
 }
