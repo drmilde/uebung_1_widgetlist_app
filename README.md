@@ -36,7 +36,7 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - ~~Align~~ (Sybille)
 - Positioned
 - ~~ListView~~ (Oliver)
-- ListTile
+- ~~ListTile~~ (Niklas)
 - Flexible
 - Expanded
 - MediaQuery
