@@ -31,7 +31,7 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - Stack
 - ~~Opacity~~ (Serageldin)
 - ~~Floating Action Button: FABt~~ (Kilian)
-- Table
+- ~~Table~~ (Patrick)
 - ~~ClipRRect~~ (Lukas)
 - ~~Align~~ (Sybille)
 - Positioned
