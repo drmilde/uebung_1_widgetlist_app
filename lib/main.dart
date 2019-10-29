@@ -47,8 +47,7 @@ class _WidgetListeStudierendeScreenState
                   zeileMitWidgetUndStudierendem("Image", "Andreas Enns"),
                   zeileMitWidgetUndStudierendem("Spacer", "Dan Vi Nguyen"),
                   zeileMitWidgetUndStudierendem("Align", "Sybille Pradella"),
-                  zeileMitWidgetUndStudierendem(
-                      "Opacity", "Serageldin El-Khodary"),
+                  zeileMitWidgetUndStudierendem("Opacity", "Serageldin El-Khodary"),
                   zeileMitWidgetUndStudierendem("ClipRRect", "Lukas Scheurer"),
                   zeileMitWidgetUndStudierendem("ListView", "Oliver Mentel"),
                   zeileMitWidgetUndStudierendem("Text", "Felix Maurer"),
@@ -56,14 +55,12 @@ class _WidgetListeStudierendeScreenState
                   zeileMitWidgetUndStudierendem("AppBar", "Tabea Runzheimer"),
                   zeileMitWidgetUndStudierendem("Row", "Nic Schwarz"),
                   zeileMitWidgetUndStudierendem("Container", "Victoria Fuchs"),
-                  zeileMitWidgetUndStudierendem(
-                      "FloatingActionButton", "Kilian Eller"),
+                  zeileMitWidgetUndStudierendem("FloatingActionButton", "Kilian Eller"),
                   zeileMitWidgetUndStudierendem("ListTile", "Niklas Kümmel"),
                   zeileMitWidgetUndStudierendem("Table", "Patrick Finger"),
                   zeileMitWidgetUndStudierendem("Safe Area", "Kathleen Wrede"),
                   zeileMitWidgetUndStudierendem("SizedBox", "Jana Bleidorn"),
-                  zeileMitWidgetUndStudierendem(
-                      "Raised Button", "Antonia Hoyer"),
+                  zeileMitWidgetUndStudierendem("Raised Button", "Antonia Hoyer"),
                   zeileMitWidgetUndStudierendem("Flexible", "Roman Klimesch"),
                   zeileMitWidgetUndStudierendem("RichText", "Muhammed Büyük"),
                   zeileMitWidgetUndStudierendem("FlatButton", "Johanna Sostmann"),
