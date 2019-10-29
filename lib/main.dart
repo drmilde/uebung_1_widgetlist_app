@@ -63,6 +63,7 @@ class _WidgetListeStudierendeScreenState
                   zeileMitWidgetUndStudierendem("Raised Button", "Antonia Hoyer"),
                   zeileMitWidgetUndStudierendem("Flexible", "Roman Klimesch"),
                   zeileMitWidgetUndStudierendem("RichText", "Muhammed Büyük"),
+                  zeileMitWidgetUndStudierendem("FlatButton", "Johanna Sostmann"),
 
                   //
                   // TODO Hier Eure jeweilige Zeile einfügen !!!!!!
