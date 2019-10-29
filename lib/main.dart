@@ -59,6 +59,7 @@ class _WidgetListeStudierendeScreenState
                   zeileMitWidgetUndStudierendem("ListTile", "Niklas Kümmel"),
                   zeileMitWidgetUndStudierendem("Table", "Patrick Finger"),
                   zeileMitWidgetUndStudierendem("Safe Area", "Kathleen Wrede"),
+                  zeileMitWidgetUndStudierendem("SizedBox", "Jana Bleidorn"),
 
                   //
                   // TODO Hier Eure jeweilige Zeile einfügen !!!!!!
