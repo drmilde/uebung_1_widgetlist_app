@@ -32,7 +32,7 @@ class _WidgetListeStudierendeScreenState
       ),
       body: SingleChildScrollView(
         child: Container(
-          color: Colors.amber, // ich will aber amber :) :) :) :)
+          color: Colors.blue, // ich will aber amber :) :) :) :)
           child: Column(
             children: <Widget>[
               _titelContainer(),
@@ -66,8 +66,7 @@ class _WidgetListeStudierendeScreenState
                       "Raised Button", "Antonia Hoyer"),
                   zeileMitWidgetUndStudierendem("Flexible", "Roman Klimesch"),
                   zeileMitWidgetUndStudierendem("RichText", "Muhammed Büyük"),
-                  zeileMitWidgetUndStudierendem(
-                      "Flat Button", "Johanna Sostmann"),
+                  zeileMitWidgetUndStudierendem("FlatButton", "Johanna Sostmann"),
 
                   //
                   // TODO Hier Eure jeweilige Zeile einfügen !!!!!!
