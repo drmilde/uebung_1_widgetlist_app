@@ -47,7 +47,8 @@ class _WidgetListeStudierendeScreenState
                   zeileMitWidgetUndStudierendem("Image", "Andreas Enns"),
                   zeileMitWidgetUndStudierendem("Spacer", "Dan Vi Nguyen"),
                   zeileMitWidgetUndStudierendem("Align", "Sybille Pradella"),
-                  zeileMitWidgetUndStudierendem("Opacity", "Serageldin El-Khodary"),
+                  zeileMitWidgetUndStudierendem(
+                      "Opacity", "Serageldin El-Khodary"),
                   zeileMitWidgetUndStudierendem("ClipRRect", "Lukas Scheurer"),
                   zeileMitWidgetUndStudierendem("ListView", "Oliver Mentel"),
                   zeileMitWidgetUndStudierendem("Text", "Felix Maurer"),
@@ -55,15 +56,18 @@ class _WidgetListeStudierendeScreenState
                   zeileMitWidgetUndStudierendem("AppBar", "Tabea Runzheimer"),
                   zeileMitWidgetUndStudierendem("Row", "Nic Schwarz"),
                   zeileMitWidgetUndStudierendem("Container", "Victoria Fuchs"),
-                  zeileMitWidgetUndStudierendem("FloatingActionButton", "Kilian Eller"),
+                  zeileMitWidgetUndStudierendem(
+                      "FloatingActionButton", "Kilian Eller"),
                   zeileMitWidgetUndStudierendem("ListTile", "Niklas Kümmel"),
                   zeileMitWidgetUndStudierendem("Table", "Patrick Finger"),
                   zeileMitWidgetUndStudierendem("Safe Area", "Kathleen Wrede"),
                   zeileMitWidgetUndStudierendem("SizedBox", "Jana Bleidorn"),
-                  zeileMitWidgetUndStudierendem("Raised Button", "Antonia Hoyer"),
+                  zeileMitWidgetUndStudierendem(
+                      "Raised Button", "Antonia Hoyer"),
                   zeileMitWidgetUndStudierendem("Flexible", "Roman Klimesch"),
                   zeileMitWidgetUndStudierendem("RichText", "Muhammed Büyük"),
-                  zeileMitWidgetUndStudierendem("Flat Button", "Johanna Sostmann"),
+                  zeileMitWidgetUndStudierendem(
+                      "Flat Button", "Johanna Sostmann"),
 
                   //
                   // TODO Hier Eure jeweilige Zeile einfügen !!!!!!
@@ -124,6 +128,37 @@ class _WidgetListeStudierendeScreenState
    */
   Widget zeileMitWidgetUndStudierendem(widgetName, studierender,
       {FontWeight weight = FontWeight.normal}) {
+    return Card(
+        child: Container(
+            decoration: BoxDecoration(color: Color.fromRGBO(64, 75, 96, .9)),
+            padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+            child: Container(
+              padding: EdgeInsets.only(right: 12.0),
+              decoration: new BoxDecoration(
+                  border: new Border(
+                      right:
+                          new BorderSide(width: 1.0, color: Colors.white24))),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: <Widget>[
+                  Text(
+                    widgetName,
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: weight,
+                    ),
+                  ),
+                  Text(
+                    studierender,
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: weight,
+                    ),
+                  ),
+                ],
+              ),
+            )));
+/*
     return Padding(
       padding: const EdgeInsets.all(4.0),
       child: Row(
@@ -145,6 +180,6 @@ class _WidgetListeStudierendeScreenState
           ),
         ],
       ),
-    );
+    );*/
   }
 }
