@@ -41,7 +41,7 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - Expanded
 - MediaQuery
 - SelectableText
-- RaisedButton
+- ~~RaisedButton~~ (Antonia)
 - ~~FlatButton~~ (Johanna)
 - RichText
 
