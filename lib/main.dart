@@ -58,6 +58,7 @@ class _WidgetListeStudierendeScreenState
                   zeileMitWidgetUndStudierendem("FloatingActionButton", "Kilian Eller"),
                   zeileMitWidgetUndStudierendem("ListTile", "Niklas Kümmel"),
                   zeileMitWidgetUndStudierendem("Table", "Patrick Finger"),
+                  zeileMitWidgetUndStudierendem("Safe Area", "Kathleen Wrede"),
 
                   //
                   // TODO Hier Eure jeweilige Zeile einfügen !!!!!!
