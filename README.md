@@ -28,7 +28,7 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - Wrap
 - ~~Spacer~~ (Dan Vi)
 - ~~SizedBox~~ (Jana)
-- Stack
+- ~~Stack~~ (Fabian)
 - ~~Opacity~~ (Serageldin)
 - ~~Floating Action Button: FABt~~ (Kilian)
 - ~~Table~~ (Patrick)
