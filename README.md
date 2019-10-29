@@ -42,7 +42,7 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - MediaQuery
 - SelectableText
 - RaisedButton
-- FlatButton
+- ~~FlatButton~~ (Johanna)
 - RichText
 
 
