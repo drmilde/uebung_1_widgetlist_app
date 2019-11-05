@@ -32,17 +32,40 @@ class _WidgetListeStudierendeScreenState
       ),
       body: SingleChildScrollView(
         child: Container(
-          color: Colors.amberAccent,
+          color: Colors.blue, // ich will aber amber :) :) :) :)
           child: Column(
             children: <Widget>[
               _titelContainer(),
               _spacer(),
               Column(
                 children: <Widget>[
-                  zeileMitWidgetUndStudierendem("Widgetname", "Studierender"),
+                  zeileMitWidgetUndStudierendem(
+                    "Widgetname",
+                    "Studierender",
+                    weight: FontWeight.bold,
+                  ),
                   zeileMitWidgetUndStudierendem("Image", "Andreas Enns"),
                   zeileMitWidgetUndStudierendem("Spacer", "Dan Vi Nguyen"),
                   zeileMitWidgetUndStudierendem("Align", "Sybille Pradella"),
+                  zeileMitWidgetUndStudierendem("Opacity", "Serageldin El-Khodary"),
+                  zeileMitWidgetUndStudierendem("ClipRRect", "Lukas Scheurer"),
+                  zeileMitWidgetUndStudierendem("ListView", "Oliver Mentel"),
+                  zeileMitWidgetUndStudierendem("Text", "Felix Maurer"),
+                  zeileMitWidgetUndStudierendem("TextStyle", "Eva-Maria Bös"),
+                  zeileMitWidgetUndStudierendem("AppBar", "Tabea Runzheimer"),
+                  zeileMitWidgetUndStudierendem("Row", "Nic Schwarz"),
+                  zeileMitWidgetUndStudierendem("Container", "Victoria Fuchs"),
+                  zeileMitWidgetUndStudierendem("FloatingActionButton", "Kilian Eller"),
+                  zeileMitWidgetUndStudierendem("ListTile", "Niklas Kümmel"),
+                  zeileMitWidgetUndStudierendem("Table", "Patrick Finger"),
+                  zeileMitWidgetUndStudierendem("Safe Area", "Kathleen Wrede"),
+                  zeileMitWidgetUndStudierendem("SizedBox", "Jana Bleidorn"),
+                  zeileMitWidgetUndStudierendem("Raised Button", "Antonia Hoyer"),
+                  zeileMitWidgetUndStudierendem("Flexible", "Roman Klimesch"),
+                  zeileMitWidgetUndStudierendem("RichText", "Muhammed Büyük"),
+                  zeileMitWidgetUndStudierendem("FlatButton", "Johanna Sostmann"),
+                  zeileMitWidgetUndStudierendem("Expanded", "Alexander Wiegel"),
+                  zeileMitWidgetUndStudierendem("Stack", "Fabian Wehner"),
                   //
                   // TODO Hier Eure jeweilige Zeile einfügen !!!!!!
                   // Danach dann testen, ob es läuft und
@@ -55,7 +78,7 @@ class _WidgetListeStudierendeScreenState
                     "Jan-Torsten",
                   ),
                   zeileMitWidgetUndStudierendem(
-                    "Macht den Rest!",
+                    "Ich mache den Rest :)",
                     "Jan-Torsten",
                   ),
                 ],
@@ -100,7 +123,39 @@ class _WidgetListeStudierendeScreenState
   /**
    * mit dieser Methode wird die einzelene Zeile erzeugt
    */
-  Widget zeileMitWidgetUndStudierendem(widgetName, studierender) {
+  Widget zeileMitWidgetUndStudierendem(widgetName, studierender,
+      {FontWeight weight = FontWeight.normal}) {
+    return Card(
+        child: Container(
+            decoration: BoxDecoration(color: Color.fromRGBO(64, 75, 96, .9)),
+            padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+            child: Container(
+              padding: EdgeInsets.only(right: 12.0),
+              decoration: new BoxDecoration(
+                  border: new Border(
+                      right:
+                          new BorderSide(width: 1.0, color: Colors.white24))),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: <Widget>[
+                  Text(
+                    widgetName,
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: weight,
+                    ),
+                  ),
+                  Text(
+                    studierender,
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: weight,
+                    ),
+                  ),
+                ],
+              ),
+            )));
+/*
     return Padding(
       padding: const EdgeInsets.all(4.0),
       child: Row(
@@ -108,14 +163,20 @@ class _WidgetListeStudierendeScreenState
         children: <Widget>[
           Text(
             widgetName,
-            style: TextStyle(fontSize: 20),
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: weight,
+            ),
           ),
           Text(
             studierender,
-            style: TextStyle(fontSize: 20),
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: weight,
+            ),
           ),
         ],
       ),
-    );
+    );*/
   }
 }

@@ -19,30 +19,30 @@ Schwups, Ihr seid an der richtigen Stelle im Code :)
 - Container
 - Row
 - Column
-- Text
-- TextStyle
+- ~~Text~~ (Felix)
+- ~~TextStyle~~ (Eva-Maria)
 - ~~Image~~ (Andreas)
 - Padding
-- SafeArea
+- ~~SafeArea~~ (Kathleen)
 - AppBar
 - Wrap
 - ~~Spacer~~ (Dan Vi)
-- SizedBox
-- Stack
-- Opacity
-- Floating Action Button (FAB)
-- Table
-- ClipRRect
-- Align
+- ~~SizedBox~~ (Jana)
+- ~~Stack~~ (Fabian)
+- ~~Opacity~~ (Serageldin)
+- ~~Floating Action Button: FABt~~ (Kilian)
+- ~~Table~~ (Patrick)
+- ~~ClipRRect~~ (Lukas)
+- ~~Align~~ (Sybille)
 - Positioned
-- ListView
-- ListTile
+- ~~ListView~~ (Oliver)
+- ~~ListTile~~ (Niklas)
 - Flexible
 - Expanded
 - MediaQuery
 - SelectableText
-- RaisedButton
-- FlatButton
+- ~~RaisedButton~~ (Antonia)
+- ~~FlatButton~~ (Johanna)
 - RichText
 
 
