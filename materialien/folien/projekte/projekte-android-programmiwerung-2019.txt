@@ -1,0 +1,29 @@
+Pitch Android Projekte: Stand 10.12.2019
+
+1) RoomFinder im Fachbereich AI, Lukas und Serag
+2) Quiz App für Prüfungsfragen (Multimedia Grundlagen), Eva und Felix
+3) Music Player, Lieder auf dem Gerät, Infos (Netzwerk optional), Oliver, Kilian
+4) Verkaufsseite für Flächen auf Planeten, Kira
+5) FinanzApp, Erfassung der Ausgaben/Einnahmen, Andreas und Dan Vi
+6) HilfsApp zum Golfspielen, Regeln überprüfen, Daten erfassen, Jannik, Niklas
+7) Englisch LernApp, Vokabeln verwalten, Johanna und Victoria
+8) Quiz App für Lerninhalte des Studiums, Jana und Kathleen
+9) App für Bauernläden, Navigation/Auffinden/über die App kaufen, Antonia und Sybille
+10) Kampfsport App, (Google ... Audiofunktion), Tabea
+11) Interaktive LernApp, Fragen Antworten importieren, Mischung, Multiplayer, Patrick, Nic
+12) Sammler App, Katalogisierung, Vergleichen ... soziales Netzwerk, Alex
+
+
+
+- für den Sprint
+
+	- github repository anlegen und alle Mitarbeiter einladen
+	- User Stories aufschreiben
+	- Zeiten erfassen
+	
+- Agile Methodik beachten
+	- es sollen immer alle User Stories umgesetzt werden
+	- d.h. zunächst so einfach wie möglich ... aber eben vollständig
+	- schrittweise Erweiterung der Funktionalität
+	
+	
